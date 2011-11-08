@@ -1,0 +1,10 @@
+Active object example using Qt's thread library
+
+Howto build it
+===================
+1. First go to 3rdParty, remove any old Makefile's there
+then run qmake && make
+
+2) Go back to active-object_qt
+run qmake && make. The finished binary should be  in the "build" directory 
+one-layer above active_object_qt

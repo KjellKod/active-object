@@ -1,0 +1,69 @@
+***** Running test active-object_qt..#1 ***
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from Test_ThreadCommunication
+[ RUN      ] Test_ThreadCommunication.initialized
+[       OK ] Test_ThreadCommunication.initialized (1 ms)
+[ RUN      ] Test_ThreadCommunication.bg_calculations
+[       OK ] Test_ThreadCommunication.bg_calculations (1 ms)
+[ RUN      ] Test_ThreadCommunication.different_threads
+[       OK ] Test_ThreadCommunication.different_threads (1 ms)
+[ RUN      ] Test_ThreadCommunication.wait_and_notify
+			In [ms]. Minimum expected wait [1000], actual wait [1000]
+			(asynchronous call took: [0])
+[       OK ] Test_ThreadCommunication.wait_and_notify (1000 ms)
+[ RUN      ] Test_ThreadCommunication.work_and_return_by_queue
+			 Minimum roundtrip took:0, maximum took: 1
+[       OK ] Test_ThreadCommunication.work_and_return_by_queue (5 ms)
+[----------] 5 tests from Test_ThreadCommunication (1008 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (1008 ms total)
+[  PASSED  ] 5 tests.
+FINISHED WITH THE TESTING
+***** Running test active-object_qt..#2 ***
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from Test_ThreadCommunication
+[ RUN      ] Test_ThreadCommunication.initialized
+[       OK ] Test_ThreadCommunication.initialized (1 ms)
+[ RUN      ] Test_ThreadCommunication.bg_calculations
+[       OK ] Test_ThreadCommunication.bg_calculations (1 ms)
+[ RUN      ] Test_ThreadCommunication.different_threads
+[       OK ] Test_ThreadCommunication.different_threads (0 ms)
+[ RUN      ] Test_ThreadCommunication.wait_and_notify
+			In [ms]. Minimum expected wait [1000], actual wait [1000]
+			(asynchronous call took: [0])
+[       OK ] Test_ThreadCommunication.wait_and_notify (1001 ms)
+[ RUN      ] Test_ThreadCommunication.work_and_return_by_queue
+			 Minimum roundtrip took:0, maximum took: 1
+[       OK ] Test_ThreadCommunication.work_and_return_by_queue (6 ms)
+[----------] 5 tests from Test_ThreadCommunication (1009 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (1009 ms total)
+[  PASSED  ] 5 tests.
+FINISHED WITH THE TESTING
+***** Running test active-object_qt..#3 ***
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from Test_ThreadCommunication
+[ RUN      ] Test_ThreadCommunication.initialized
+[       OK ] Test_ThreadCommunication.initialized (1 ms)
+[ RUN      ] Test_ThreadCommunication.bg_calculations
+[       OK ] Test_ThreadCommunication.bg_calculations (4 ms)
+[ RUN      ] Test_ThreadCommunication.different_threads
+[       OK ] Test_ThreadCommunication.different_threads (0 ms)
+[ RUN      ] Test_ThreadCommunication.wait_and_notify
+			In [ms]. Minimum expected wait [1000], actual wait [1001]
+			(asynchronous call took: [0])
+[       OK ] Test_ThreadCommunication.wait_and_notify (1001 ms)
+[ RUN      ] Test_ThreadCommunication.work_and_return_by_queue
+			 Minimum roundtrip took:0, maximum took: 1
+[       OK ] Test_ThreadCommunication.work_and_return_by_queue (6 ms)
+[----------] 5 tests from Test_ThreadCommunication (1012 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (1013 ms total)
+[  PASSED  ] 5 tests.
+FINISHED WITH THE TESTING

@@ -7,19 +7,12 @@ active-object_c++11
 Is made with standard C++ components with the help of the latest C++11 and std::thread features (thanks to justthread). For more details
 See www.kjellkod.cc/active-object-with-cpp0x
 
-
-active-object_c++ 
-Is made with standard C++, witout using C++ features or std::tr1. For more details see www.kjellkod.cc/active_object
-This acctive object is using a silly lock-free "proof of concept" queue. 
-Ref: The article on CodeProject on a simiplistic lock-free circular queue. Single Producer Single Consumer
-http://www.codeproject.com/KB/threads/LockFree.aspx
-
+A good example of when this active object is in use can be found in the asynchronous "crash safe" logger g2log
+You can find it here: https://bitbucket.org/KjellKod/g2log/
 
 active-object_qt
 Is made with Qt 4.7, an active object using a protected shared_queue with internal QMutex and QWaitCondition
 
-article__lock-free-circularfifo
-The article on CodeProject on a simiplistic lock-free circular queue. Single Producer Single Consumer
 
 
 

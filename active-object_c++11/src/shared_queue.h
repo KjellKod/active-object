@@ -9,7 +9,7 @@
 * the help from the std::thread library from JustSoftwareSolutions
 * ref: http://www.stdthread.co.uk/doc/headers/mutex.html
 *
-* This exampel  was inspired by Anthony Williams lock-based data structures in
+* This example was inspired by Anthony Williams lock-based data structures in
 * Ref: "C++ Concurrency In Action" http://www.manning.com/williams */
 
 #ifndef SHARED_QUEUE
